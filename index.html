@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Creamy small-batch ice cream. Real ingredients, classic flavors.">
+  <title>Creamy — Taste Joy in Every Bite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="canvas">
+    <div class="project-tags"><span>Ice Cream</span><span>Motion</span><span>Web Design</span></div>
+
+    <section class="website">
+      <header class="nav">
+        <a class="wordmark" href="#">Creamy</a>
+        <nav class="nav-pill"><a class="active" href="#">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+        <div class="nav-actions"><button aria-label="Search">⌕</button><button class="bag" aria-label="Shopping bag">▢<b id="bag-count">0</b></button></div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Small batch · big flavor</p>
+          <h1>Taste Joy in<br>Every Bite</h1>
+          <p class="intro">Real cream, familiar ingredients, and classic flavors made for the moments worth slowing down for.</p>
+          <div class="hero-actions"><button class="order-button add">Order now</button><a href="#menu">See all flavors</a></div>
+        </div>
+
+        <div class="product-scene">
+          <div class="halo"></div>
+          <img class="main-pint" id="main-pint" src="assets/vanilla.png" alt="Madagascar vanilla ice cream pint">
+          <div class="main-info"><strong id="flavor-name">Madagascar Vanilla</strong><span id="flavor-note">Vanilla bean · sweet cream</span></div>
+          <div class="arrows"><button class="previous" aria-label="Previous flavor">←</button><button class="next" aria-label="Next flavor">→</button></div>
+        </div>
+
+        <div class="next-flavors" aria-label="Upcoming flavors">
+          <button class="mini-flavor" data-index="1"><img id="side-one" src="assets/strawberry.png" alt="Strawberry Fields"><span>Strawberry</span></button>
+          <button class="mini-flavor small" data-index="2"><img id="side-two" src="assets/chocolate.png" alt="Brownie Fudge"><span>Chocolate</span></button>
+        </div>
+
+        <div class="social-dots"><span>f</span><span>◎</span><span>p</span></div>
+      </section>
+
+      <div class="cream-floor">
+        <div class="reviews"><div class="avatars"><i>J</i><i>M</i><i>A</i></div><div><strong>10K+ Reviews</strong><small>Customers love every scoop</small></div></div>
+        <div class="slide-count"><b id="slide-number">01</b><span>/ 06</span></div>
+        <div class="dots"><button class="active" data-index="0"></button><button data-index="1"></button><button data-index="2"></button><button data-index="3"></button><button data-index="4"></button><button data-index="5"></button></div>
+      </div>
+
+      <section class="menu" id="menu">
+        <div class="section-title"><div><span>THE FREEZER</span><h2>Meet the whole crew.</h2></div><p>Six real flavors. One difficult decision.</p></div>
+        <div class="product-cards" id="cards"></div>
+      </section>
+
+      <section class="faq" id="about">
+        <div><span>NEED THE SCOOP?</span><h2>FAQ’s</h2><p>Everything you need to know before your next freezer run.</p></div>
+        <div class="questions">
+          <details open><summary>What makes your ice cream different?<b>−</b></summary><p>Real cream, recognizable ingredients, and small batches made for better texture.</p></details>
+          <details><summary>Do you offer home delivery?<b>+</b></summary><p>Yes—local delivery is available wherever our scoop shops operate.</p></details>
+          <details><summary>Do you have dairy-free flavors?<b>+</b></summary><p>Seasonal dairy-free flavors rotate through the menu.</p></details>
+        </div>
+      </section>
+    </section>
+
+    <footer><span>Website concept by Micah SEO Solutions</span><span>© 2026 Creamy</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
